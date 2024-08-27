@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Lista de compras</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span>Lista de Compras</span>
+    </div>
+  </header>
+  <main>
+    <div class="title">
+      <h1>Compras da Semana</h1>
+    </div>
+
+    <div class="add-item">
+      <input type="text" placeholder="Adicione um novo item">
+      <button id="add-btn">Adicionar Item</button>
+    </div>
+
+    <div class="list">
+      <ul class="list-content">
+        <ul class="list-content" id="item-list">
+        </ul>
+      </ul>
+    </div>
+    <div class="message">
+      <span class="alert">O item foi removido da lista</span>
+      <span class="success">Item adiconado a lista</span>
+    </div>
+  </main>
+</body>
+
+<script defer src="app.js"></script>
+</html>

@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+  padding: 15px;;
+}
+
+header .logo span {
+  font-size: 3rem;
+  text-align: center;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 8px 12px;
+}
+
+main .title h2 {
+  font-size: 2rem;
+}
+
+.add-item {
+  display: flex;
+  gap: 20px;
+}
+
+.add-item input {
+  padding: 10px;
+  border: 2px solid rgba(12, 12, 25, 0.3);
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 5px rgba(12, 12, 25, 0.3);
+}
+
+.add-item button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(12, 12, 25, 0.3);
+}
+.list .list-content {
+  width: 450px;
+}
+
+.list .list-content li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.list .list-content li:nth-child(odd) {
+  background: #f4f4f4;
+}
+
+.list .list-content li:nth-child(even) {
+  background: #e9e9e9;
+}
+
+.list .list-content li button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.alert,
+.success {
+  display: none;
+}
+
+.alert {
+  background: #ea4848f1;
+  font-size: 1.3rem;
+  padding: 12px;
+  width: 350px;
+  border-radius: 12px;
+  color: #f4f4f4;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.success {
+  background: #48ea48f1;
+  font-size: 1.3rem;
+  padding: 12px;
+  width: 350px;
+  border-radius: 12px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
